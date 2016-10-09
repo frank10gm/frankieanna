@@ -1,0 +1,300 @@
+@font-face {
+	font-family: 'sketchy';
+	src: url('../fonts/orange.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'bebas';
+	src: url('../fonts/mood/Segan-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'bebas2';
+	src: url('../fonts/FuturaHandwritten.ttf') format('truetype');
+}
+
+/*********************************** DEFAULT ************************************/
+
+body{
+	background-color: white;
+	font-family: "Helvetica Neue";
+	font-weight: 200;
+	font-size: 24px;
+	color: black;
+	max-width: 100%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  line-height: inherit; }
+  a:hover, a:focus {
+    color: #ffcc00; }
+  a img {
+    border: none; }
+
+/***********************************BACKGROUND************************************/
+
+#backgr{
+    background:#eceded url("../img/bg1/sfondo_chiave.png") top right repeat-y;
+    width:100%;
+    height:8000px;
+    position:fixed;    
+    top:0;
+    z-index:-1;
+    }
+    
+/***********************************CONTENT************************************/
+ 
+#content{
+    color: black;
+    width: 960px;
+    position:relative;
+    margin:0 auto;
+    z-index:2;
+    font-family: "bebas";
+    }
+    
+#content article{
+	margin-left: 5px;
+    width:450px;
+    padding-top:50px;
+ 
+}
+
+#content article h1{
+	font-family: 'Helvetica Neue';
+	font-weight: bold;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: black;
+	margin-bottom: 0px;
+}
+
+#content article h2{
+	font-family: 'Helvetica Neue';
+	font-weight: bold;
+	font-size: 9px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #777777;
+	margin-bottom: 4px;
+}
+
+#content article p{	
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+	font-size:11px;
+	font-weight: normal;
+	margin-bottom:0;
+	line-height: 1.6em;
+	margin-bottom: 1.6em;
+	font-style: normal;
+}
+    
+    
+/***********************************IDEA************************************/
+ 
+#idea{
+    width:100%;
+    position:relative;
+    text-align:center;
+    z-index:0;
+}
+
+/***********************************IMAGES************************************/
+
+#immagini{
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1;
+}
+
+.img-moto{
+    position:absolute;
+    top:1600px;
+    left:50%;
+ 
+}
+
+#img-ue{
+    position:absolute;
+    top:1600px;
+    left:50%;
+ 
+}
+
+#img-surf{
+    position:absolute;
+    top:1600px;
+    left:50%;
+ 
+}
+
+#img-lampadina{
+    position:absolute;
+    top:2800px;
+    left:50%;
+}
+#img-contatti{
+    position:absolute;
+    top:6500px;
+    left:50%;
+ 
+}
+#img-baffo{
+	position: absolute;
+	top: 400px;
+	left: 60%;
+	width: 200px;
+	/*background: url('../images/background/a34.png') no-repeat scroll center top transparent;*/
+}
+
+/***********************************ARTICOLI SINGOLI************************************/
+
+#home{
+    position:absolute;
+    top:-120px;
+}
+
+#configurator{
+    position:absolute;
+    top:2717px;
+}
+
+#login{ 
+	position: absolute;
+	top: 5000px;
+}
+
+#video{ 
+	position: absolute;
+	top: 7500px;
+}
+
+#photo{ 
+	position: absolute;
+	top: 10000px;
+}
+
+#community{
+	position: absolute;
+	top: 12500px;
+}
+
+#apparel{
+	position: absolute;
+	top: 3900px;
+}
+
+#servizi{
+    position:absolute;
+    top:5717px;
+}
+
+#contatti{
+    position:absolute;
+    top:17500px;
+    padding-bottom:320px;
+ 
+}
+
+#edit-profile{
+	position:absolute;
+    top:6500px;
+}
+
+
+/***********************************LINK************************************/
+
+.link{
+	font-family: "bebas";
+	font-weight: 100;
+	font-size: 1.5rem;
+	line-height: 1.85rem;
+}
+ 
+/***********************************MAIN MENU************************************/
+ 
+#menu{
+background:#fff;
+height:45px;
+padding:0;
+margin:0;
+position:fixed;
+top:0;
+width:100%;
+z-index:1000;    
+font-family: "Helvetica Neue";
+}
+ 
+#menu ul{    
+width:960px;
+margin:0 auto;
+height:25px;
+padding-top:15px;    
+}
+ 
+#menu ul li{    
+float:left;
+height:30px;
+width:200px;
+padding-left:0;
+list-style-type:none;
+text-align:center;
+}
+ 
+#menu ul li a{    
+color:#333;
+font-weight:200;
+text-decoration:none;
+}
+
+/*********************************** MEDIA ************************************/
+
+.elenco-media{
+	position:absolute; top: 115px; left: 750px; width: 300px;
+	line-height: 35px;
+}
+
+.elenco-media a{
+	line-height: 25px;
+	color: red;
+}
+
+.nivo{
+	width: 600px;
+	max-width: 720px;
+}
+
+/*********************************** PRO-FILE ************************************/
+
+.profile{
+	line-height: 30px;
+}
+
+.bar {
+    height: 18px;
+    background: #64aded;
+}
+
+#upload-result{
+	color: red;
+}
+
+#avatar{
+	padding-bottom: 10px;
+}
+
+.last-video{
+	color: #42a3f7;
+	font-size: 16px;
+}
+
+.edit-prof-el{
+	color: #42a3f7;
+	font-size: 16px;
+}
+

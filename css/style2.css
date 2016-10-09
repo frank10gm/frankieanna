@@ -1,0 +1,131 @@
+@font-face {
+	font-family: 'Pisello';
+	src: url('../font/Futura-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'tryout';
+	src: url('../font/vanity.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'hipstern';
+	src: url('../font/FuturaHandwritten.ttf') format('truetype');
+}
+
+#contenitore_generale{
+
+}
+
+body{
+	background-color:#fff;
+	font-family: 'hipstern';
+	font-size: 24px;
+}
+
+body, html {
+  height: 100%;
+}
+
+h4{
+	color: white;
+}
+
+#scr{
+	font-family: 'tryout';
+	font-size: 70px;
+	line-height: 60px;
+}
+
+#container2 {
+	margin: 0 auto;
+}
+
+#container3 {
+	margin: 0 auto;
+}
+
+.item { 
+	width: 280px;
+	background-color:#4c4c4c;
+	margin-right: 14px;
+	margin-bottom: 14px;
+	padding: 15px;
+}
+
+.item2 { 
+	width: 200px;
+	background-color:#4c4c4c;
+	margin-right: 14px;
+	margin-bottom: 14px;
+	padding: 15px;
+}
+
+.slide {
+	padding-top: 45px;
+	height: 2000px;
+}
+
+.slide2 {
+	height: 100%;
+}
+
+#playground{
+	height: 100%;
+}
+
+.normal-text{
+	
+}
+
+.normal2-text{
+	font-size: 18px;
+	
+}
+
+.titolo-text{
+	font-size: 20px;
+}
+
+.casual-img{
+	height: 100%;
+	width: 100%;
+}
+
+.testo-destra{
+	padding-right: 100px;
+}
+
+.img-pres{
+	width: 70%;
+	
+}
+
+.colonna{
+	background-color:#4c4c4c;
+	padding: 15px;
+}
+
+.pcolonna{
+	height: 10%;
+}
+
+
+/* VIDEO */
+
+#div-video1{
+
+	
+}
+
+/* FORM */
+
+.form{
+	font-size: 16px;
+}
+
+.risultato-form{
+	height: 30px;
+	font-size: 12px;
+	color: aqua;
+}

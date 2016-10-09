@@ -1,0 +1,95 @@
+@font-face {
+	font-family: 'Pisello';
+	src: url('../font/Futura-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'tryout';
+	src: url('../font/vanity.ttf') format('truetype');
+}
+
+#contenitore_generale{
+
+}
+
+h4{
+	color: white;
+}
+
+#scr{
+	font-family: 'tryout';
+	font-size: 70px;
+}
+
+#container2 {
+	margin: 0 auto;
+}
+
+#container3 {
+	margin: 0 auto;
+}
+
+.item { 
+	width: 280px;
+	background-color:#4c4c4c;
+	margin-right: 14px;
+	margin-bottom: 14px;
+	padding: 15px;
+}
+
+.item2 { 
+	width: 200px;
+	background-color:#4c4c4c;
+	margin-right: 14px;
+	margin-bottom: 14px;
+	padding: 15px;
+}
+
+.slide {
+	padding-top: 45px;
+	height: 2000px;
+}
+
+.slide2 {
+	padding-top: 35px;
+	height: 2000px;
+}
+
+.normal-text{
+	font-size: 20px;
+	line-height:24px;
+	
+}
+
+.normal2-text{
+	font-size: 18px;
+	line-height:20px;
+	
+}
+
+.titolo-text{
+	font-size: 20px;
+}
+
+.casual-img{
+	height: 100%;
+	width: 100%;
+}
+
+.testo-destra{
+	padding-right: 100px;
+}
+
+.img-pres{
+	width: 70%;
+	
+}
+
+.colonna{
+	background-color:#4c4c4c;
+	padding: 15px;
+}
+
+.pcolonna{
+	height: 10%;
+}

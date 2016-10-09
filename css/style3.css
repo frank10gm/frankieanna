@@ -1,0 +1,240 @@
+@font-face {
+	font-family: 'Pisello';
+	src: url('../font/SketchyComic.ttf') format('truetype');
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'tryout';
+	src: url('../font/CicleSemi.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'hipstern';
+	src: url('../font/FuturaHandwritten.ttf') format('truetype');
+}
+
+#contenitore_generale{
+
+}
+
+
+
+#scr{
+	font-family: 'tryout';
+	font-size: 70px;
+	line-height: 60px;
+}
+
+#container2 {
+	margin: 0 auto;
+}
+
+#container3 {
+	margin: 0 auto;
+}
+
+.item { 
+	width: 280px;
+	background-color:transparent;
+	margin-right: 14px;
+	margin-bottom: 14px;
+	padding: 15px;
+	color: black;
+	font-size: 12px;
+	text-align: left;
+}
+
+.item2 { 
+	width: 200px;
+	background-color:#4c4c4c;
+	margin-right: 14px;
+	margin-bottom: 14px;
+	padding: 15px;
+}
+
+.slide {
+	padding-top: 45px;
+	height: 2000px;
+}
+
+.slide2 {
+
+}
+
+#playground{
+	height: 100%;
+}
+
+.normal-text{
+	
+}
+
+.normal2-text{
+	font-size: 18px;
+	
+}
+
+.titolo-text{
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 300;
+	font-family: "Open Sans", "Helvetica Neue";
+	font-style: normal;
+}
+
+.blog-img{
+	width: 100%;
+
+}
+
+.casual-img{
+	height: 100%;
+	width: 100%;
+}
+
+.testo-destra{
+	padding-right: 100px;
+}
+
+.img-pres{
+	width: 70%;
+	
+}
+
+.colonna{
+	background-color:#4c4c4c;
+	padding: 15px;
+}
+
+.pcolonna{
+	height: 10%;
+}
+
+
+/* VIDEO */
+
+#div-video1{
+
+	
+}
+
+/* FORM */
+
+.form{
+	font-size: 16px;
+}
+
+.risultato-form{
+	height: 30px;
+	font-size: 12px;
+	color: #2b81dd;
+}
+
+/* INCLUDE CONTAINER */
+
+#include-container{
+	width: 70%;
+}
+
+/* VIDEO CONTAINER */
+
+#video-container{
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 50%;
+	left: 0px;
+	top: 45px;
+	background-color: transparent;
+	z-index: -100;
+}
+
+
+.video-top{
+	position: absolute;
+	top: 400px;
+	left: 25%;
+	color: black;
+	opacity: 1;
+	
+}
+
+#video2{
+	
+}
+
+/* MENU */
+
+.menu-lat{
+	position: absolute;
+	z-index: 10;
+	font-weight: 100;
+	top: 0px;
+	height: 100%;
+}
+
+
+
+
+#moto{
+	position: absolute;
+	top: 6%;
+	left: 460px;
+}
+
+#testo{
+	font-family: "Helvetica Neue";
+	font-weight: 100;
+	position: absolute;
+	font-size: 35rem;
+	left: 750px;
+	top: 20px;
+	color: black;
+	
+}
+
+#duc{
+	font-family: "Helvetica Neue";
+	font-weight: 100;
+	position: absolute;
+	font-size: 6rem;
+	left: 100px;
+	top: 360px;
+	color: black;
+}
+
+#scr2{
+	position: absolute;
+	text-align: center;
+	font-family: "Helvetica Neue";
+	font-weight: 100;
+	font-size: 4rem;
+	top: 30px;
+	width: 100%;
+	color: black;
+}
+
+#suppose{
+	position: fixed;
+	text-align: left;
+	font-family: "Helvetica Neue";
+	font-weight: 100;
+	font-size: 2rem;
+	width: 100px;
+	top: 180px;
+	color: black;
+	margin-left: 20px;
+}
+
+#choose{
+	line-height: 40px;
+}
+
+
+#main-slide{
+	position: fixed;
+	width: 900px;
+	background-color: transparent;
+	top: 150px;
+}

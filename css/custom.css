@@ -1,0 +1,1036 @@
+@font-face {
+    font-family: 'sketchy';
+    src: url('../fonts/orange.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('../fonts/Segan-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bebas2';
+    src: url('../fonts/FuturaHandwritten.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'biondo';
+    src: url('../fonts/SpecialElite.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'biondo2';
+    src: url('../fonts/Scriptina Pro.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'pannita';
+    src: url('../fonts/milasian.ttf') format('truetype');
+}
+
+
+/* jumbotron */
+
+.jumbotron {
+    position: relative;
+    background: #333 url("jumbotron-bg.png") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+/* MIXITUP
+-------------------- */
+
+#mixitup {
+    margin: 0 auto;
+}
+
+#mixitup {
+    width: 100%;
+}
+
+#mixitup .mix {
+    width: 100%;
+    max-width: 700px;
+    background-color: white;
+    font-size: 12px;
+    font-family: 'Delius';
+    color: black;
+    margin-bottom: 5px;
+}
+
+#mixitup .mix img {
+    width: 100%;
+}
+
+#f-programma {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+
+/* Padding below the footer and lighter body text */
+
+body {
+    background-color: white;
+    padding-bottom: 0px;
+    color: #1d334a;
+    font-family: 'Delius';
+}
+
+.text-muted {}
+
+a {
+    line-height: inherit;
+}
+
+a img {
+    border: none;
+}
+
+
+/* BACKGROUND
+    -------------------------------------------------- */
+
+#backgr {
+    background: url("../img/sfondo.png") top center;
+    width: 100%;
+    height: 18000px;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.caccatml {
+    background: url(../img/home.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#logo {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    text-align: center;
+    z-index: 0;
+    padding-top: 70px;
+    margin-bottom: 60px;
+}
+
+
+/* PAGINE SITO
+    -------------------------------------------------- */
+
+.storia {
+    font-family: 'Delius';
+    padding-bottom: 100px;
+}
+
+.spazio {
+    overflow: hidden;
+    font-family: 'Delius';
+    display: table;
+    padding: 40px;
+    height: 555px;
+    text-align: center;
+    width: 100%;
+}
+
+.centra {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.spazio-video {
+    font-family: 'Delius';
+    display: table;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 555px;
+    color: #fff;
+    width: 100%
+}
+
+.inner-spazio {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.icons {
+    width: 35px;
+    height: 35px;
+}
+
+.overlay {
+    background: transparent;
+    position: relative;
+    width: 100%;
+    height: 800px;
+    /* your iframe height */
+    top: 800px;
+    /* your iframe height */
+    margin-top: -800px;
+    /* your iframe height */
+}
+
+.title-fascia {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.img-logo {
+    max-height: 400px;
+    max-width: 100%;
+}
+
+.img-logo-titolo {
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.img-logo-date {
+    max-height: 220px;
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+.img-lotgra {
+    width: 450px;
+    max-width: 100%;
+}
+
+.top-cont {
+    position: absolute;
+    top: 0px;
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    background: url(../img/home.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-sinistra {
+    display: table-cell;
+    width: 50%;
+    max-height: 100px;
+    margin-top: 125px;
+    padding-left: 20px;
+    z-index: 900;
+}
+
+.top-centro {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    color: red;
+    font-family: 'Delius';
+    position: absolute;
+    top: 95px;
+    width: 180px;
+    height: 25px;
+    margin-right: -1px;
+    /* Thank you IE */
+    left: 50%;
+    margin-left: -110px;
+    z-index: 900;
+}
+
+.top-destra {
+    position: absolute;
+    display: table-cell;
+    width: 200px;
+    height: 200px;
+    margin-right: -1px;
+    /* Thank you IE */
+    right: 40px;
+    top: 125px;
+    padding-right: 0px;
+    z-index: 900;
+}
+
+#mappa {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: -10px;
+    background-color: white;
+}
+
+#myCarousel {
+    background-color: #f1f1f1;
+}
+
+#concorso {
+    background-color: #eaeaea;
+}
+
+#social {
+    line-height: 3.8rem;
+    background-color: #efefef;
+    margin-top: -5px;
+}
+
+#chi-siamo {
+    background-color: #f1f1f1;
+}
+
+#pianta {
+    padding-top: -100px;
+    background-color: white;
+}
+
+#lotteria {
+    background-color: #f1f1f1;
+}
+
+#vincitori-lotteria {
+    background-color: #f1f1f1;
+}
+
+#gratta {
+    background-color: white;
+}
+
+#home {
+    background-color: white;
+    padding: 0;
+    margin-top: -50px;
+}
+
+#video {
+    line-height: 3.8rem;
+    background-color: #000;
+    margin-top: 0px;
+}
+
+#sponsor {
+    background-color: white;
+}
+
+#ed-passate {
+    background-color: white;
+}
+
+#f-come-arrivare {
+    background-color: white;
+}
+
+#giocone {
+    background-color: #f1f1f1;
+}
+
+#contatti {
+    background-color: #f1f1f1;
+}
+
+#gastro {
+    background-color: #f1f1f1;
+}
+
+
+/* 045fa2 */
+
+a {
+    color: #3e5f8a;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #585858;
+}
+
+
+/* MENU #########################
+    ###########################
+    ######*/
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px) {}
+
+.navbar {
+    border: 0px;
+    box-shadow: 0 0px 5px 0px #777;
+    font-family: 'Delius';
+    text-transform: none;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.navbar .nav>li>a {
+    color: black;
+}
+
+.navbar .nav>li:hover>a {
+    color: grey;
+}
+
+.navbar .nav>li:hover>a:hover {
+    color: grey;
+}
+
+.navbar .nav>li>a:focus {
+    color: gray;
+}
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar .navbar-toggle:hover .icon-bar {
+    background-color: black;
+}
+
+.navbar .navbar-toggle:hover {
+    background-color: white;
+}
+
+.navbar .navbar-toggle:focus {
+    background-color: white;
+}
+
+
+/* SEZIONE HOME #########################
+      ###########################
+      ######*/
+
+#bio-top {
+    margin-top: 50px;
+    background: url(../img/home.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 700px;
+    padding: 0px;
+}
+
+#bio-top .inner {
+    /*background: rgba(0, 0, 0, 0.0) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;*/
+    min-height: 700px;
+    position: relative;
+    text-align: right;
+}
+
+.copy {
+    position: absolute;
+    bottom: -40px;
+    right: 35px;
+    height: 20em;
+    margin-top: -5em;
+    width: 100%;
+    color: #fff;
+}
+
+.copy h1 {
+    font-family: 'pannita';
+    font-size: 90px;
+}
+
+.copy p {
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 790px) {
+    h1 {
+        font-family: 'pannita';
+        font-size: 90px;
+    }
+    #bio-top {
+        background: url(../img/home.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 700px;
+        padding: 0px;
+    }
+    #bio-top .inner {
+        /*background: rgba(0, 0, 0, 0.0) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;*/
+        min-height: 700px;
+        position: relative;
+        text-align: center;
+    }
+    .copy {
+        position: absolute;
+        top: 87%;
+        right: 0%;
+        height: 20em;
+        margin-top: -5em;
+        width: 100%;
+        color: #fff;
+        /*text-shadow: 0 0 5px #4b0000, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #4b0000, 0 0 30px #4b0000, 0 0 40px #4b0000, 0 0 50px #4b0000, 0 0 75px #4b0000;*/
+    }
+    .copy h1 {
+        font-family: 'pannita';
+        font-size: 65px;
+    }
+}
+
+
+/* SEZIONI dopo home #########################
+      ###########################
+      dev10n
+      ######*/
+
+.max-foto {
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.max-foto2 {
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.inner-accentra {
+    display: table-cell;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.accentra {
+    width: 100%;
+    vertical-align: middle;
+}
+
+#bio-partecipazione {
+    background-color: #f1f1f1;
+}
+
+@media (max-width: 700px) {
+    .inner-accentra {
+        width: 90%;
+        height: 100%;
+        position: relative;
+        text-align: center;
+    }
+    .accentra {
+        position: absolute;
+        top: 0%;
+        width: 100%;
+    }
+    #bio-partecipazione {
+        height: 600px;
+    }
+}
+
+#bio-cerimonia {}
+
+#bio-ricevimento {
+    background-color: #f1f1f1;
+}
+
+#bio-lista {}
+
+#bio-conferma {
+    background-color: #f1f1f1;
+}
+
+
+/* FACEBOOK
+          -------------------------------------------------- */
+
+#fb-root {
+    display: none;
+}
+
+
+/* To fill the container and nothing else */
+
+.fb_iframe_widget,
+.fb_iframe_widget span,
+.fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+          -------------------------------------------------- */
+
+
+/* Special class on .container surrounding .navbar, used for positioning it into place.
+          .navbar-wrapper {
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          z-index: 20;
+          }*/
+
+
+/* Flip around the padding for proper display in narrow viewports
+          .navbar-wrapper .container {
+          padding-right: 0;
+          padding-left: 0;
+        }
+        .navbar-wrapper .navbar {
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+
+      .navbar{
+      font-family: 'Helvetica Neue';
+      text-transform: none;
+      background-color: #d1aa6f;
+      }*/
+
+
+/* FRANKIE  separator
+      .navbar .navbar-collapse .nav .divider{
+      border-bottom: none;
+      border-top: none;
+      border-right: solid 1px #4d4d4d;
+      clear: none;
+      height: 13px;
+      margin-top: 17px;
+      width: 0;
+    }
+
+
+    .navbar .navbar-collapse .nav li a:hover{
+    color: #ffcc00;
+  }
+
+  .navbar .navbar-collapse .nav .dropdown .dropdown-menu li a:hover {
+  color: black;
+}
+
+
+*/
+
+
+/*
+* Masthead for nav
+*/
+
+.blog-masthead {
+    background-color: white;
+    box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .15);
+    height: 60px;
+}
+
+.but-menu {
+    font-family: 'Helvetica Neue';
+    color: #585858;
+}
+
+
+/* Nav links */
+
+.blog-nav-item {
+    font-family: 'Delius';
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    color: #585858;
+}
+
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+    color: #999;
+    text-decoration: none;
+}
+
+
+/* Active state gets a caret at the bottom */
+
+.blog-nav .active {
+    color: #fff;
+}
+
+.blog-nav .active:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    vertical-align: middle;
+    content: " ";
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid;
+    border-left: 5px solid transparent;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+/* Carousel base class */
+
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+    z-index: 10;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+
+.carousel-inner>.item>img {
+    /*position: absolute;
+  top: 0px;
+  left: 0;*/
+    min-width: 1400px;
+    min-height: 500px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+
+/* Pad the edges of the mobile views a bit */
+
+.marketing {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: normal;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 80px 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+
+/* Blog
+-------------------------------------------------- */
+
+
+/*
+* Blog name and description
+*/
+
+.blog-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blog-title {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.blog-description {
+    font-size: 20px;
+    color: #999;
+}
+
+
+/*
+* Main column and sidebar layout
+*/
+
+.blog-main {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+/* Sidebar modules for boxing content */
+
+.sidebar-module {
+    padding: 15px;
+    margin: 0 -15px 15px;
+}
+
+.sidebar-module-inset {
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Pagination */
+
+.pager {
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+.pager>li>a {
+    width: 140px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+/*
+* Blog posts
+*/
+
+.blog-post {
+    margin-bottom: 60px;
+    font-family: 'Delius', sans-serif;
+    color: #333;
+    font-size: 11px;
+    line-height: 1.6em;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.blog-post p {
+    font-family: 'Delius', sans-serif;
+    color: #333;
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 1px;
+    line-height: 1.6em;
+    margin-bottom: 0.2em;
+    font-style: normal;
+}
+
+.blog-post-title {
+    margin-bottom: 4px;
+    font-size: 13px;
+    font-family: 'Helvetica Neue';
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.blog-post-meta {
+    margin-bottom: 20px;
+    font-family: 'Helvetica Neue';
+    font-weight: bold;
+    font-size: 9px;
+    text-transform: none;
+    letter-spacing: 1px;
+    color: #777777;
+    margin-bottom: 4px;
+}
+
+blockquote {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Signin
+-------------------------------------------------- */
+
+.container-container-signin {
+    width: 100%;
+    height: 700px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #eee;
+}
+
+.container-signin {
+    width: 330px;
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+
+
+}
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 768px) {
+    /* Remove the edge padding needed for mobile */
+
+    .marketing {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* Navbar positioning foo */
+
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* The navbar becomes detached from the top, so we round the corners */
+
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+    /* Bump up size of carousel content */
+
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}
+
+/* Footer
+-------------------------------------------------- */
+.blog-footer {
+    font-family: 'Delius';
+    font-size: 20px;
+    padding: 40px;
+    color: #999;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+    background: url(../img/linea.png);
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+@media (max-width: 700px) {
+    .blog-footer {
+        padding: 40px;
+        color: #999;
+        background-color: #f9f9f9;
+        border-top: 1px solid #e5e5e5;
+        background: url(../img/linea.png);
+        background-size: contain;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        height: 150px;
+    }
+}
